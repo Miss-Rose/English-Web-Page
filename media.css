@@ -1,0 +1,162 @@
+@media only screen and (max-width: 480px){
+.container-small{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.container-full{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.logo-image{
+	display: block;
+	padding-top: 20px;
+
+}
+/*SECTION 1*/
+.grig-main-section1{
+	display: flex;
+	width: 100%;
+	margin:0;
+	flex-direction: column-reverse;
+
+}
+.grid-networks {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	align-content: center;
+}
+.grid-logo-button {
+	padding-left:10px;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-content: center;
+	background: url(images/img-1.png)  no-repeat right;
+	background-size: 60%;
+	padding-top:30px;
+	padding-bottom:90px;
+}
+.heading {
+	color: black;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold; 
+	padding-bottom: 40px;
+	padding-top: 20px;
+	
+}
+.my-button {
+	display: inline-grid;
+	align-content: center;
+	width: 100px;
+  	height: 40px;
+  	text-align:center;
+	line-height: 50px;
+  	font-size: 14px;
+  	text-decoration: none;
+  	outline: none;
+  	border: none;
+  	border-radius: 100px;
+  	background-color: #c515f3;
+  	color: white;
+  	user-select: none;
+}
+ 
+/*SECTION 2*/
+.title{
+	padding-top:90px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold; 
+	text-align: center;
+	padding-bottom:32px;
+}
+
+.grid-galery {
+	display: block;
+   	padding-left: 10px;
+	overflow: auto;
+  	white-space: nowrap;
+}
+.galety-image {
+	display: inline-block;
+   text-align: center;
+  text-decoration: none; 
+  
+}
+.galety-image img {
+	width: 50%;
+}
+.view-more {
+	padding-bottom: 90px;
+	color: gray;
+}
+
+/*SECTION 3*/
+.image-experince{
+	display: none;
+}
+.grid-experience {
+	grid-template-columns: 1fr;
+}
+.pid-title {
+	font-size: 24px;
+	font-weight: bold; 
+	text-align: center;
+	padding-bottom:32px;
+}
+.capture-experience{
+	box-shadow: 0 0px 20px 0 rgba(25, 72, 222, 0.43), 0 6px 20px 0 rgba(197, 21, 243, 0.53);
+	border-radius: 15px;
+	font-size: 16px;
+	line-height: 1.7;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.capture-experience br{
+	display: none;
+}
+
+/*SECTION 4*/
+.grid-benefits{
+	grid-template-columns: 1fr;
+	padding-top: 0px;
+	padding-bottom:90px;
+}
+.benefit-describe {
+	text-align:center;
+	padding-top: 10px;
+}
+
+/*SECTION 5*/
+.rectangle {
+	background: url(images/img3-copy.png) no-repeat bottom;
+	background-size: 100%;
+}
+.text-schedule{
+	text-align:left;
+	padding-bottom:40px;
+}
+.describe-schedule{
+	padding:10px 5px;	
+}
+/*SECTION 6 footer */
+.contacts{
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-bottom:30px;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+	.contacts{
+	display: grid;
+	grid-template-columns: 1fr  1fr ;
+	padding-bottom:30px;
+}
+
+}
+
+
+
